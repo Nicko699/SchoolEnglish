@@ -1,55 +1,106 @@
-# 📘 SchoolEnglish
+# 📚 School English - Sistema de Horarios
 
-**SchoolEnglish** es un proyecto de aprendizaje enfocado en la gestión y práctica del aprendizaje del idioma inglés en un entorno escolar. Está desarrollado con fines académicos,
-lógica de programación y estructuras básicas.
+> Sistema de consulta de horarios para escuela de inglés según edad del alumno
+
+## 📋 Descripción
+
+Aplicación de consola en Java que asigna horarios de clases de inglés basándose en la edad del estudiante. El sistema permite realizar múltiples consultas sin necesidad de reiniciar el programa.
+
+## 🎯 Funcionalidades
+
+- 👤 Registro de nombre y edad del estudiante
+- ⏰ Asignación automática de horarios según edad
+- 🔄 Consultas múltiples sin reiniciar
+- ✅ Validación de entrada de datos
+- 🚫 Control de edades fuera del rango permitido
+
+## 📅 Horarios por Grupo de Edad
+
+| Rango de Edad | Días | Horario |
+|---------------|------|---------|
+| **4 - 6 años** | Lunes y Miércoles | 4:00 PM - 5:00 PM |
+| **7 - 8 años** | Martes y Jueves | 4:30 PM - 5:30 PM |
+| **9 - 10 años** | Martes y Jueves | 5:30 PM - 7:00 PM |
+| **11 - 13 años** | Lunes y Miércoles | 5:00 PM - 6:30 PM |
+| **< 4 años** | - | ❌ No disponible |
+| **≥ 14 años** | - | ❌ No disponible |
+
+## 🚀 Cómo usar
+
+### Requisitos
+- Java JDK 8 o superior
+
+### Ejecución
+
+```bash
+# Compilar
+javac schoolenglish/SchoolEnglish.java
+
+# Ejecutar
+java schoolenglish.SchoolEnglish
+```
+
+### Ejemplo de uso
+
+```
+Ingrese su nombre
+> María García
+
+Ingrese su edad
+> 8
+Martes y jueves de 4:30pm-5:30pm
+
+---------------
+Necesitas saber otro horario? SI/NO
+> SI
+
+Ingrese su nombre
+> Juan Pérez
+
+Ingrese su edad
+> 12
+Lunes y Miercoles de 5pm-6:30pm
+
+---------------
+Necesitas saber otro horario? SI/NO
+> NO
+
+Saliendo del programa...
+```
+
+## 🎓 Grupos de Edad
+
+### 👶 Grupo Infantil (4-6 años)
+- Clases más cortas
+- Lunes y Miércoles
+- Horario temprano: 4:00 PM
+
+### 🧒 Grupo Primaria Inicial (7-8 años)
+- Martes y Jueves
+- 1 hora de clase
+
+### 👦 Grupo Primaria Avanzada (9-10 años)
+- Martes y Jueves
+- Clases más largas: 1.5 horas
+
+### 👧 Grupo Adolescentes (11-13 años)
+- Lunes y Miércoles
+- Horario intermedio
+
+## 🛠️ Tecnologías
+
+- Java SE
+- Scanner para entrada de datos
+- Manejo de excepciones (try-catch)
+- Estructuras condicionales (if-else)
+- Bucles (while)
+
+
+## 👤 Autor
+
+**Nicko699**
+- GitHub: [@Nicko699](https://github.com/Nicko699)
 
 ---
 
-## 📌 Descripción
-
-El sistema simula una aplicación escolar relacionada con el aprendizaje de inglés. Permite organizar información básica y ejecutar funcionalidades orientadas a prácticas académicas, siendo ideal para estudiantes que están iniciando en programación.
-
-Este proyecto busca reforzar:
-
-* Lógica de programación
-* Uso de estructuras de control
-* Organización de un proyecto en Java
-
----
-
-## 🚀 Tecnologías utilizadas
-
-* **Java** – Lenguaje de programación principal
-* **Consola** – Interacción mediante terminal
-
----
-
-## ▶️ Guía para ejecutar el proyecto
-
-### 📋 Requisitos
-
-* **Java JDK 8 o superior**
-* Un IDE o editor de código (NetBeans, IntelliJ IDEA, Eclipse o VS Code)
-
-### 📂 Pasos de ejecución
-
-1. Clona el repositorio:
-
-   ```bash
-   git clone https://github.com/Nicko699/SchoolEnglish.git
-   ```
-2. Abre el proyecto en tu IDE.
-3. Compila el proyecto.
-4. Ejecuta la clase principal (la que contiene el método `main`).
-
----
-
-## 🧑‍🎓 Uso del sistema
-
-1. Ejecuta el programa.
-2. Sigue las instrucciones que aparecen en consola.
-3. Ingresa los datos solicitados para interactuar con el sistema.
-
-
-
-✨ Proyecto realizado como práctica de programación y aprendizaje.
+💡 **Ejercicio simple de lógica para cualquier lenguaje de programación**
